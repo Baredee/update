@@ -62,11 +62,11 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 # Minor fixes
 
 <p>
-• Certain bugs and missing sessions are now fixed
-• Now Loading images from correct path
-• Now Loading javscript/stylesheets from correct path
-• Located `funnel-steps.tpl.php` & changed some code to make it work with the right database table.
-• Changed Foreign Key Constraining issues
-• Upon deleting a funnel-step, it gets deleted everywhere, including the auto-enerated thumbnail for it.
-• Reduced the width in created-step GUI, post-theme-selection
+* Certain bugs and missing sessions are now fixed
+* Now Loading images from correct path
+* Now Loading javscript/stylesheets from correct path
+* Located `funnel-steps.tpl.php` & changed some code to make it work with the right database table.
+* Changed Foreign Key Constraining issues
+* Upon deleting a funnel-step, it gets deleted everywhere, including the auto-enerated thumbnail for it.
+* Reduced the width in created-step GUI, post-theme-selection
 </p>
