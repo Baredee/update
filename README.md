@@ -12,12 +12,12 @@ with the same blueprint to avoid conflict, and the A_I can easily be reset now, 
 
 # Code snippet for updating HTML/CSS properly
 
-<p>Before this fix, the HTML/CSS for given projects were being generated automatically from an unknown place, 
+<p>Before this fix, the `HTML/CSS` for given projects were being generated automatically from an unknown place, 
 probably by the builder itself. 
 
 However, now, after adding this snippet of code:
 
-<img>http://image.prntscr.com/image/a6fdde6af8884ba0b19488666309407c.png</img>
+![Code](http://image.prntscr.com/image/a6fdde6af8884ba0b19488666309407c.png)
 
 
 I've made the page re-set all of the required fields to the correct values, and there are no problems.</p>
@@ -28,7 +28,7 @@ I've made the page re-set all of the required fields to the correct values, and 
 <p>The previous image is only a snippet from the middleware-file that I made the application go through... here is the full code:
 
 
-<img>http://image.prntscr.com/image/82eb820c539c45cf9d79d79ab6f25d7a.png</img>
+![Code](http://image.prntscr.com/image/82eb820c539c45cf9d79d79ab6f25d7a.png)
 
 </p>
 
@@ -38,10 +38,11 @@ I've made the page re-set all of the required fields to the correct values, and 
 <p>For some reason... when you create a step in the <or>FUNNEL STEPS</bl> phase...
 
 Like this:
-<img>http://image.prntscr.com/image/10aae3a93cd24005b6909e7cf143ca2f.png</img>
+![Code](http://image.prntscr.com/image/10aae3a93cd24005b6909e7cf143ca2f.png)
 
 It gets put in the database, two tables (by reference of name), `funnelsteps` and `projects`:
-<img>http://image.prntscr.com/image/0124d30d259042ab95a74cf412d257e4.png</img>
+
+![Code](http://image.prntscr.com/image/0124d30d259042ab95a74cf412d257e4.png)
 
 But suppose the funnel name was mispelled and then edited (in the proper manner,) the application
 would only update the name on one table, resulting in the `funnelsteps` table (the one the builder
@@ -49,7 +50,7 @@ coincidentally also uses) being unaware of this modification, which would result
 no longer being recognised in the builder...
 
 
-<img>http://image.prntscr.com/image/e3b4965debc74f58a64a8e9eabd03d7e.png</img>
+![Code](http://image.prntscr.com/image/e3b4965debc74f58a64a8e9eabd03d7e.png)
 
 
 With a fre changes to the custom <bl>ORM</bl> currently in place (funnel-steps line 1800~), that's now also taken care of, 
