@@ -1,16 +1,16 @@
-#Template Generation Tool
+# Template Generation Tool
 
 <p>Created a `tinker.php` file here (instafunnels.co/app/admin/views/besma/tinker.php) that takes care of 
 theme and template insertion automatically. This tool allows the admin to upload templates with ease, without being
 too concerned about conflicting files or missing database entries.</p>
 
-#Re-created tables
+# Re-created tables
 
 <p>`Auto Incrementation` was bugged on some of the tables in the database. I re-created them
 with the same blueprint to avoid conflict, and the A_I can easily be reset now, as opposed to before.</p>
 
 
-#Code snippet for updating HTML/CSS properly
+# Code snippet for updating HTML/CSS properly
 
 <p>Before this fix, the HTML/CSS for given projects were being generated automatically from an unknown place, 
 probably by the builder itself. 
@@ -23,7 +23,7 @@ However, now, after adding this snippet of code:
 I've made the page re-set all of the required fields to the correct values, and there are no problems.</p>
 
 
-#'create_project'
+# 'create_project'
 
 <p>The previous image is only a snippet from the middleware-file that I made the application go through... here is the full code:
 
@@ -33,7 +33,7 @@ I've made the page re-set all of the required fields to the correct values, and 
 </p>
 
 
-#Editing error
+# Editing error
 
 <p>For some reason... when you create a step in the <or>FUNNEL STEPS</bl> phase...
 
@@ -58,7 +58,7 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 
 </p>
 
-#Minor fixes
+# Minor fixes
 
 <p>
 • Certain bugs and missing sessions are now fixed
