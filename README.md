@@ -61,7 +61,6 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 
 # Minor fixes
 
-<p>
 * Certain bugs and missing sessions are now fixed
 * Now Loading images from correct path
 * Now Loading javscript/stylesheets from correct path
@@ -69,4 +68,3 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 * Changed Foreign Key Constraining issues
 * Upon deleting a funnel-step, it gets deleted everywhere, including the auto-enerated thumbnail for it.
 * Reduced the width in created-step GUI, post-theme-selection
-</p>
