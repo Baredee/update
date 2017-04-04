@@ -68,3 +68,5 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 * Changed Foreign Key Constraining issues
 * Upon deleting a funnel-step, it gets deleted everywhere, including the auto-enerated thumbnail for it.
 * Reduced the width in created-step GUI, post-theme-selection
+* Correctly assign HTML/CSS to the pages
+* Deleting a funnel now deletes it in `pages`, `projects`, `users_projects`, and `funnelsteps`
