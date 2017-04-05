@@ -75,4 +75,4 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 
 # Currently
 
-* - Creating an `Exit Popup Element`
+* Creating an `Exit Popup Element`
