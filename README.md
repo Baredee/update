@@ -76,3 +76,6 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 # Currently
 
 * Creating an `Exit Popup Element`
+* Found out javascript doesn't work because the builder automatically removes all JS imports (including JQUERY)
+* JS must be loaded alone into the pages after page-creation
+* /app/assets/js/vendor/ doesn't have jquery nor bootstrap, needs to be implemented. I've done JQuery and it seems to be taking it fine
