@@ -70,12 +70,15 @@ and when the funnel-step aka 'project' is edited, the edit is submitted to both 
 * Reduced the width in created-step GUI, post-theme-selection
 * Correctly assign HTML/CSS to the pages
 * Deleting a funnel now deletes it in `pages`, `projects`, `users_projects`, and `funnelsteps`
-
-
-
-# Currently
-
 * Creating an `Exit Popup Element`
 * Found out javascript doesn't work because the builder automatically removes all JS imports (including JQUERY)
 * JS must be loaded alone into the pages after page-creation
 * /app/assets/js/vendor/ doesn't have jquery nor bootstrap, needs to be implemented. I've done JQuery and it seems to be taking it fine
+
+
+
+# Currently (15/04/2017)
+
+* No access - IP was banned.
+* Working on funnels statistics
+* Reduced 3 bootstrap columns of 4 spans to 4 of 3 spans, to add one more block, 'REVENUE' - as per the requirement.
